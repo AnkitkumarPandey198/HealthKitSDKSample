@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HealthKitSample</string>
+    <string name="sign_in_to_your_unthinkable_account">Sign in to your Unthinkable account</string>
+    <string name="email"><font color ="#BFBFBF">Email*</font></string>
+    <string name="password"><font color ="#BFBFBF">Password*</font></string>
+    <string name="remember_me">Remember me</string>
+    <string name="enter_name"><font color = "#DADADA">First Name</font></string>
+    <string name="enter_last_name"><font color = "#DADADA">Enter Last Name</font></string>
+    <string name="youremail_email_com"><font color = "#DADADA">youremail@email.com</font></string>
+    <string name="enter_password"><font color = "#DADADA">Enter Password</font></string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an Account?<b><font color = "#90C44E"> Sign Up</font></b></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name*</string>
+    <string name="last_name">Last Name*</string>
+    <string name="email_id">Email ID*</string>
+    <string name="login">Login</string>
+    <string name="password_svz">Password*</string>
+</resources>

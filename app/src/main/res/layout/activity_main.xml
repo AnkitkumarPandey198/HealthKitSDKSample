@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bg_flag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_flag"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/bg_logo"
+        android:layout_width="237dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/ic_login_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/id_title"
+        android:layout_width="282dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="54dp"
+        android:fontFamily="@font/open_sans"
+        android:textColor="#383838"
+        android:text="@string/sign_in_to_your_unthinkable_account"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textFontWeight="400"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bg_logo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/id_text_input_layout"
+        android:layout_width="309dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp"
+        app:circularflow_defaultRadius="6dp"
+        android:background="@drawable/stroke_border"
+        app:layout_constraintTop_toBottomOf="@id/id_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:background="null"
+            android:layout_marginStart="10dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/id_text_input_layout2"
+        android:layout_width="309dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/stroke_border"
+        app:layout_constraintTop_toBottomOf="@id/id_text_input_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:background="null"
+            android:layout_marginStart="10dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/remember_me"
+        app:layout_constraintTop_toBottomOf="@id/id_text_input_layout2"
+        app:layout_constraintStart_toStartOf="@id/id_text_input_layout2" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/shape"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioButton" />
+
+    <TextView
+        android:id="@+id/needAccount"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:textColor="#616161"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/loginBtn"
+        app:layout_constraintStart_toStartOf="@+id/loginBtn"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
