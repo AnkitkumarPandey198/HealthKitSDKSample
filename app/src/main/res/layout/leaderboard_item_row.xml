@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/leaderboard_item_border"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/id_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:textSize="14sp"
+        android:textColor="#5A5A5A"
+        android:fontFamily="@font/open_sans_bold"
+        android:layout_marginStart="14dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/person_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/people"
+        app:civ_border_color="#90C44E"
+        app:civ_border_width="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/id_rank"
+        app:layout_constraintStart_toEndOf="@+id/id_rank"
+        app:layout_constraintTop_toTopOf="@+id/id_rank"
+        />
+
+    <TextView
+        android:id="@+id/id_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shalini Jaiswal"
+        android:textSize="12sp"
+        android:textColor="#5A5A5A"
+        android:fontFamily="@font/open_sans_bold"
+        android:layout_marginStart="14dp"
+        app:layout_constraintTop_toTopOf="@id/person_image"
+        app:layout_constraintStart_toEndOf="@id/person_image" />
+
+    <TextView
+        android:id="@+id/id_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Sr. Associate"
+        android:textSize="9sp"
+        android:textColor="#888888"
+        android:fontFamily="@font/open_sans"
+        app:layout_constraintTop_toBottomOf="@id/id_name"
+        app:layout_constraintStart_toStartOf="@id/id_name" />
+
+    <TextView
+        android:id="@+id/id_between"
+        android:layout_width="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/id_position"
+        app:layout_constraintStart_toEndOf="@+id/id_position"
+        app:layout_constraintTop_toTopOf="@+id/id_position" android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="10sp"
+        android:textColor="#888888"
+        android:layout_marginStart="2dp"
+        android:fontFamily="@font/open_sans"
+        />
+
+    <TextView
+        android:id="@+id/id_branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UI Design"
+        android:textSize="9sp"
+        android:textColor="#888888"
+        android:fontFamily="@font/open_sans"
+        android:layout_marginStart="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/id_between"
+        app:layout_constraintStart_toEndOf="@+id/id_between"
+        app:layout_constraintTop_toTopOf="@+id/id_between" />
+
+    <TextView
+        android:id="@+id/id_no_of_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2890"
+        android:textSize="14sp"
+        android:textColor="#90C44E"
+        android:fontFamily="@font/open_sans_bold"
+        android:layout_marginStart="130dp"
+        app:layout_constraintBottom_toBottomOf="@+id/id_name"
+        app:layout_constraintStart_toEndOf="@+id/id_name"
+        app:layout_constraintTop_toTopOf="@+id/id_name" />
+
+    <TextView
+        android:id="@+id/id_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steps"
+        android:textSize="9sp"
+        android:textColor="#888888"
+        android:fontFamily="@font/open_sans"
+        app:layout_constraintTop_toBottomOf="@+id/id_no_of_steps"
+        app:layout_constraintEnd_toEndOf="@+id/id_no_of_steps"
+        app:layout_constraintStart_toStartOf="@+id/id_no_of_steps" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

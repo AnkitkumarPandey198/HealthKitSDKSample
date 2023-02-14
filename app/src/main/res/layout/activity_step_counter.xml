@@ -7,13 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".StepCounterActivity">
 
-
-  <androidx.fragment.app.FragmentContainerView
-      android:id="@+id/fragmentContainerView"
-      android:name="com.example.healthkitsample.DayFragment"
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/employee_recycler_view"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"/>
+      tools:listitem="@layout/leaderboard_item_row"
+      />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,7 +30,7 @@
     <string name="total_steps_value"><font color="#383838">9,200</font></string>
     <string name="calories_burnt"><font color="#888888">Calories burnt</font></string>
     <string name="calories_burnt_value"><font color="#383838">320</font></string>
-
+    <string name="_1">1</string>
 
 
 </resources>
