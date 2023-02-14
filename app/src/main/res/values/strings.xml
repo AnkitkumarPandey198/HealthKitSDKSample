@@ -1,18 +1,36 @@
-<resources>
+<resources xmlns:font-weight="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="app_name">HealthKitSample</string>
     <string name="sign_in_to_your_unthinkable_account">Sign in to your Unthinkable account</string>
-    <string name="email"><font color ="#BFBFBF">Email*</font></string>
-    <string name="password"><font color ="#BFBFBF">Password*</font></string>
+    <string name="email"><font color="#BFBFBF">Email*</font></string>
+    <string name="password"><font color="#BFBFBF">Password*</font></string>
     <string name="remember_me">Remember me</string>
-    <string name="enter_name"><font color = "#DADADA">First Name</font></string>
-    <string name="enter_last_name"><font color = "#DADADA">Enter Last Name</font></string>
-    <string name="youremail_email_com"><font color = "#DADADA">youremail@email.com</font></string>
-    <string name="enter_password"><font color = "#DADADA">Enter Password</font></string>
-    <string name="don_t_have_an_account_sign_up">Don\'t have an Account?<b><font color = "#90C44E"> Sign Up</font></b></string>
+    <string name="enter_name"><font color="#DADADA">First Name</font></string>
+    <string name="enter_last_name"><font color="#DADADA">Enter Last Name</font></string>
+    <string name="youremail_email_com"><font color="#DADADA">youremail@email.com</font></string>
+    <string name="enter_password"><font color="#DADADA">Enter Password</font></string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an Account?<b><font color="#90C44E"> Sign Up</font></b></string>
     <string name="sign_up">Sign Up</string>
     <string name="name">Name*</string>
     <string name="last_name">Last Name*</string>
     <string name="email_id">Email ID*</string>
     <string name="login">Login</string>
     <string name="password_svz">Password*</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <!-- Fragment text-->
+    <string name="today"><font color="#888888">Today</font></string>
+    <string name="week_days"><font color="#888888">2-8 February</font></string>
+    <string name="month_days"><font color="#888888">9 Jan - 8 Feb</font></string>
+    <string name="steps"><b><font color="#90C44E" >734</font></b></string>
+    <string name="steps_days"><font color="#383838">steps/day</font></string>
+    <string name="average_km"><font color="#888888">Average</font></string>
+    <string name="average_km_value"><font color="#383838">1.12Km</font></string>
+    <string name="total_steps"><font color="#888888">Total Steps</font></string>
+    <string name="total_steps_value"><font color="#383838">9,200</font></string>
+    <string name="calories_burnt"><font color="#888888">Calories burnt</font></string>
+    <string name="calories_burnt_value"><font color="#383838">320</font></string>
+
+
+
 </resources>

@@ -72,8 +72,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:background="null"
+                android:background="@android:color/transparent"
                 android:hint="@string/enter_name"
                 tools:ignore="TouchTargetSizeCheck" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -102,10 +101,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:background="null"
+                android:background="@android:color/transparent"
                 android:hint="@string/enter_last_name"
-                android:hintTextColor="#FF00FF00"
                 tools:ignore="TouchTargetSizeCheck" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -134,8 +131,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:background="null"
+                android:background="@android:color/transparent"
                 android:hint="@string/youremail_email_com"
                 tools:ignore="TouchTargetSizeCheck" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -164,8 +160,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:background="null"
+                android:background="@android:color/transparent"
                 android:hint="@string/enter_password"
                 tools:ignore="TouchTargetSizeCheck" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -194,8 +189,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:background="null"
+                android:background="@android:color/transparent"
                 android:drawableRight="@drawable/ic_calendar"
                 android:drawablePadding="10dp"
                 android:paddingLeft="30dp"
