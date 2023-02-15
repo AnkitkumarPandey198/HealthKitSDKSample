@@ -6,6 +6,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".DayFragment">
 
+
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cd_day"
         android:layout_width="320dp"
