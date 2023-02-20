@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".SignupActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -16,9 +17,9 @@
             android:layout_height="match_parent"
             android:layout_marginTop="50dp"
             android:src="@drawable/bg_flag"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/bg_logo"
@@ -26,9 +27,9 @@
             android:layout_height="31dp"
             android:layout_marginTop="30dp"
             android:src="@drawable/ic_login_logo"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <TextView
@@ -39,9 +40,9 @@
             android:fontFamily="@font/open_sans"
             android:text="@string/sign_up"
             android:textAlignment="center"
+            android:textColor="#383838"
             android:textFontWeight="400"
             android:textSize="20sp"
-            android:textColor="#383838"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/bg_logo"
@@ -52,11 +53,11 @@
             android:layout_width="72dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="@font/open_sans"
-            android:textColor="#383838"
-            android:text="@string/name"
-            android:textSize="16sp"
             android:contentDescription="Name"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/name"
+            android:textColor="#383838"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@id/id_title"
             app:layout_constraintTop_toBottomOf="@id/id_title" />
 
@@ -66,8 +67,8 @@
             android:layout_height="55dp"
             android:layout_marginTop="6dp"
             android:background="@drawable/stroke_border"
-            app:layout_constraintTop_toBottomOf="@id/id_name"
-            app:layout_constraintStart_toStartOf="@id/id_name">
+            app:layout_constraintStart_toStartOf="@id/id_name"
+            app:layout_constraintTop_toBottomOf="@id/id_name">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -93,10 +94,10 @@
             android:id="@+id/id_text_input_layout2"
             android:layout_width="309dp"
             android:layout_height="55dp"
-            android:background="@drawable/stroke_border"
             android:layout_marginTop="6dp"
-            app:layout_constraintTop_toBottomOf="@id/id_last_name"
-            app:layout_constraintStart_toStartOf="@id/id_last_name">
+            android:background="@drawable/stroke_border"
+            app:layout_constraintStart_toStartOf="@id/id_last_name"
+            app:layout_constraintTop_toBottomOf="@id/id_last_name">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -111,11 +112,11 @@
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:contentDescription="Email Sign In"
             android:fontFamily="@font/open_sans"
             android:text="@string/email_id"
             android:textColor="#383838"
             android:textSize="16sp"
-            android:contentDescription="Email Sign In"
             app:layout_constraintStart_toStartOf="@id/id_text_input_layout2"
             app:layout_constraintTop_toBottomOf="@id/id_text_input_layout2" />
 
@@ -125,8 +126,8 @@
             android:layout_height="55dp"
             android:layout_marginTop="6dp"
             android:background="@drawable/stroke_border"
-            app:layout_constraintTop_toBottomOf="@id/id_email_sign"
-            app:layout_constraintStart_toStartOf="@id/id_email_sign">
+            app:layout_constraintStart_toStartOf="@id/id_email_sign"
+            app:layout_constraintTop_toBottomOf="@id/id_email_sign">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -141,10 +142,10 @@
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/password_svz"
-            android:textSize="16dp"
-            android:textColor="#383838"
             android:fontFamily="@font/open_sans"
+            android:text="@string/password_svz"
+            android:textColor="#383838"
+            android:textSize="16dp"
             app:layout_constraintStart_toStartOf="@id/id_text_input_layout3"
             app:layout_constraintTop_toBottomOf="@id/id_text_input_layout3" />
 
@@ -154,8 +155,8 @@
             android:layout_height="55dp"
             android:layout_marginTop="6dp"
             android:background="@drawable/stroke_border"
-            app:layout_constraintTop_toBottomOf="@id/id_password_sign"
-            app:layout_constraintStart_toStartOf="@id/id_password_sign">
+            app:layout_constraintStart_toStartOf="@id/id_password_sign"
+            app:layout_constraintTop_toBottomOf="@id/id_password_sign">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -170,10 +171,10 @@
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="DOB*"
-            android:textSize="16sp"
-            android:textColor="#383838"
             android:fontFamily="@font/open_sans"
+            android:text="DOB*"
+            android:textColor="#383838"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@id/id_text_input_layout4"
             app:layout_constraintTop_toBottomOf="@id/id_text_input_layout4" />
 
@@ -183,8 +184,8 @@
             android:layout_height="55dp"
             android:layout_marginTop="6dp"
             android:background="@drawable/stroke_border"
-            app:layout_constraintTop_toBottomOf="@id/id_Dob"
-            app:layout_constraintStart_toStartOf="@id/id_Dob">
+            app:layout_constraintStart_toStartOf="@id/id_Dob"
+            app:layout_constraintTop_toBottomOf="@id/id_Dob">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -203,31 +204,42 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/open_sans"
             android:text="Set your daily step goal*"
-            android:textSize="16sp"
             android:textColor="#383838"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@id/id_text_input_layout5"
             app:layout_constraintTop_toBottomOf="@id/id_text_input_layout5" />
 
-        <SeekBar
-            android:id="@+id/seekBar"
-            android:layout_width="315dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="6dp"
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slideBar"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/transparent"
+            android:stepSize="500"
+            android:valueFrom="500"
+            android:valueTo="10000"
+            app:labelStyle="@style/Widget.App.Tooltip"
             app:layout_constraintStart_toStartOf="@id/id_daily_step_goal"
             app:layout_constraintTop_toBottomOf="@id/id_daily_step_goal"
-            val/>
+            app:thumbColor="@color/Primary_Color"
+            app:tickVisible="false"
+            app:haloColor="@color/Primary_Color"
+            app:trackColorActive="@color/Primary_Color"
+            app:trackColorInactive="@color/Secondary_color" />
 
         <Button
             android:id="@+id/loginBtn"
             android:layout_width="222dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="31dp"
+            android:layout_marginTop="65dp"
             android:background="@drawable/shape"
+            android:backgroundTint="#90C44E"
             android:text="Sign Up"
             android:textColor="@color/white"
-            app:layout_constraintEnd_toEndOf="@id/seekBar"
-            app:layout_constraintStart_toStartOf="@id/seekBar"
-            app:layout_constraintTop_toBottomOf="@id/seekBar" />
+            app:layout_constraintEnd_toEndOf="@id/slideBar"
+            app:layout_constraintStart_toStartOf="@id/slideBar"
+            app:layout_constraintTop_toBottomOf="@id/slideBar" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.core.widget.NestedScrollView>

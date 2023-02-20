@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82CE32"
+    tools:context=".Splash_Activity">
+
+    <ImageView
+        android:id="@+id/id_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_white_flag"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/id_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tt_firs_neue"
+        android:text="@string/unthinkable_tracr"
+        android:textAlignment="center"
+        android:textColor="#616161"
+        android:textFontWeight="400"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/id_flag"
+        app:layout_constraintStart_toStartOf="@+id/id_flag"
+        app:layout_constraintTop_toBottomOf="@+id/id_flag"
+        tools:ignore="TextSizeCheck" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

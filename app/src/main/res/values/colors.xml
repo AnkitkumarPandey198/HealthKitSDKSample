@@ -12,4 +12,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="black_shade_1">#292D36</color>
+    <color name="Primary_Color">#90C44E</color>
+    <color name="Secondary_color">#F6F6F3</color>
+    <color name="transparent">#00000000</color>
 </resources>
